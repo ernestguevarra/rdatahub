@@ -10,3 +10,5 @@ Description: The use of APIs to programmatically access data from repositories
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
+Imports: wbstats,
+    WDI
