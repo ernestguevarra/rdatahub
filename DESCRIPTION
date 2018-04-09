@@ -2,7 +2,8 @@ Package: rdatahub
 Type: Package
 Title: R Interface to Multiple Data Hub APIs
 Version: 0.1.0
-Authors@R: person("Ernest", "Guevarra", email = "ernestgmd@gmail.com"", role = c("aut", "cre")) 
+Authors@R: person("Ernest", "Guevarra", comment = c(ORCID = "0000-0002-4887-4415"), 
+    email = "ernestgmd@gmail.com", role = c("aut", "cre", "cph"))
 Description: The use of APIs to programmatically access data from repositories 
     allows efficient utilisation and facilitates subsequent analysis. rdatahub
     integrates the APIs of various open source data repositories into a single
@@ -12,3 +13,4 @@ Encoding: UTF-8
 LazyData: true
 Imports: wbstats,
     WDI
+RoxygenNote: 6.0.1
